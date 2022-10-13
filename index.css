@@ -1,0 +1,116 @@
+
+
+
+body{
+    background-image:url(https://res.cloudinary.com/grohealth/image/upload/v1581692228/DCUK/Content/iStock-9217203841.jpg); 
+    height: 100vh;
+    background-blend-mode: darken;
+    background: rgba(0,0,0,0.7) url(https://res.cloudinary.com/grohealth/image/upload/v1581692228/DCUK/Content/iStock-9217203841.jpg);
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: darken;
+     
+}
+
+.inputs .in_inp input{
+    width: 30%;
+    color: azure;
+    padding: 0.3cm;
+    border-color: black;
+    font-size: 17px;
+    background: none;
+    outline: none;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+.inputs .in_inp label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: grey;
+
+}
+
+.one{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background:none ;
+    box-sizing: border-box;
+}
+
+.two{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.three{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.four{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.five{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.six{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.seven{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.eight{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    
+    background: none;
+    text-align: center;
+    color: white;
+    padding-right: 10cm;
+    width: 10%;
+    left: 10;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 12px 0;
+    box-sizing: border-box;
+    
+}
+
+.btn label{
+    position: absolute;
+    bottom: 10px;
+    left: 50;
+    color: white;
+
+}
+
+.row{
+    text-align: center;
+}

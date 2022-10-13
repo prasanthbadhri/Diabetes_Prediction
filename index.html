@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Diabetes</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='index.css')}}" >
+    </head>
+    
+    <body>
+
+        <h1 style="color:cadetblue; font-size: 1.2cm; text-align: center;">WELCOME</h1>
+        
+        <div class="container">
+        <form action="/predict" method="POST">
+            
+            <div class="inputs" >
+             <div class="in_inp">   
+                <input class="one" type="text" name="preg" placeholder="Pregnencies"><br>
+                <input class="two" type="text" name="glu" placeholder="Glucose"><br>
+                <input class="three"  type="text" name="bp" placeholder="Blood Pressure"><br>
+                <input class="four"    type="text" name="skin" placeholder="Skin Thickness"><br>
+                <input class="five"   type="text" name="ins" placeholder="Insulin"><br>
+                <input class="six"    type="text" name="bmi" placeholder="BMI"><br>
+                <input class="seven"  type="text" name="dpdf" placeholder="DiabetesPedigreeFunction"><br>
+                <input class="eight"  type="text" name="age" placeholder="Age"><br>
+             </div>   
+            <button class="btn" >check</button>
+            </div>
+        </form>
+        <div class="row">
+            {% if prediction==1 %}
+            <h2 style="color: red;">This person is having Diabetes</h2>
+            {% elif prediction==0 %}
+            <h2 style="color: green;">congrats u r free from Diabetes</h2>
+            {% endif %}
+
+        </div>
+        </div>
+    </body>
+</html> 
